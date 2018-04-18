@@ -1,0 +1,28 @@
+﻿<Advertisements>
+  <Ad>
+    <ImageUrl>Amul1.jpg</ImageUrl>
+    <NavigateUrl>Amul1.jpg</NavigateUrl>
+    <AlternateText>Ad1</AlternateText>
+    <Height>166</Height>
+    <Width>257</Width>
+    <Impressions>50</Impressions>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>IndianArmy.jpg</ImageUrl>
+    <NavigateUrl>IndianArmy.jpg</NavigateUrl>
+    <AlternateText>Ad2</AlternateText>
+    <Height>166</Height>
+    <Width>257</Width>
+    <Impressions>50</Impressions>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>Amul2.jpg</ImageUrl>
+    <NavigateUrl>Amul2.jpg</NavigateUrl>
+    <AlternateText>Ad3</AlternateText>
+    <Height>166</Height>
+    <Width>257</Width>
+    <Impressions>50</Impressions>
+  </Ad>
+</Advertisements>

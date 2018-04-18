@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="main1.master.cs" Inherits="Judiciary_Information_System.main1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Judiciary Information System</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <center><h1 id="siteName">Judiciary Information System</h1></center>
+    <div>
+        <asp:ContentPlaceHolder ID="Main_CPH1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+        <b>Made by Naman and Sai</b>
+        <br />
+        <br />
+        <br />
+        
+        <asp:AdRotator ID="AdRotator1" runat="server" DataSourceID="XmlDataSource1" />
+        <asp:XmlDataSource ID="XmlDataSource1" runat="server" DataFile="~/Ads.xml"></asp:XmlDataSource>
+        
+    </form>
+    
+</body>
+</html>
